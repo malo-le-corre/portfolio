@@ -284,7 +284,9 @@
         <a id="competences"></a>
         <div class="box section-gap competences-box reveal">
             <h2 class="title">COMPÉTENCES</h2>
-            <div class="columns reveal-stagger">
+
+            <!-- Desktop : grille 4 colonnes -->
+            <div class="columns reveal-stagger comp-desktop">
 
                 <div class="column is-one-quarter reveal-scale">
                     <div class="card is-clickable projet-card" onclick="showProjet('c1', 'Graphisme', null, null, 'Création graphique', [
@@ -343,7 +345,77 @@
                 </div>
 
             </div>
+
+            <!-- Mobile : carousel -->
+            <div class="carousel-wrapper comp-mobile" style="display:none;">
+                <button class="carousel-btn" id="compPrev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carousel-viewport" id="compViewport">
+                    <div class="carousel-track" id="compTrack">
+
+                        <div class="carousel-slide">
+                            <div class="card is-clickable projet-card" onclick="showProjet('c1', 'Graphisme', null, null, 'Création graphique', [
+                                { logo: 'média/Photoshop.jpg', nom: 'Adobe Photoshop', description: 'Utilisation pour la conception d\'affiches de matchs et de visuels événementiels.', postImg: 'média/1.png' },
+                                { logo: 'média/Figma.jpg', nom: 'Figma', description: 'Création de visuels pour les réseaux sociaux, ainsi que certains visuels physiques.', postImg: 'média/Point classement D1.png' }
+                            ], 'competence-rows')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/Ps.jpg" alt="Logiciels de graphisme" /></figure></div>
+                                <div class="card-content">
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Graphisme</h3></div></div></div>
+                                    <div class="content">Conception de solutions visuelles pour transmettre un message, une idée ou une information à un public précis.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Création graphique</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <div class="card is-clickable projet-card" onclick="showProjet('c2', 'Audiovisuel', null, null, 'Conception audiovisuelle', [
+                                { logo: 'média/Première.jpg', nom: 'Adobe PremierePro', description: 'Montage de vidéos courtes au format vertical pour Instagram et Tiktok.', postImg: 'média/SC.png', lien: 'https://www.instagram.com/reel/DHjDT1ONasw/' },
+                                { logo: 'média/DV.jpg', nom: 'DaVinci Resolve', description: 'Montage d\'un film de sensibilisation contre les dangers de l\'alcool.', postImg: 'média/film1.png', lien: 'https://youtu.be/YwrvDrXCh0I' }
+                            ], 'competence-rows')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/Pr.jpg" alt="Logiciels d'audiovisuel" /></figure></div>
+                                <div class="card-content">
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Audiovisuel</h3></div></div></div>
+                                    <div class="content">Combinaison entre le son et l'image pour créer une œuvre, un contenu ou un support de communication.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Conception audiovisuelle</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <div class="card is-clickable projet-card" onclick="showProjet('c3', 'Marketing et Gestion de projet', null, null, 'Convaincre et organiser', [
+                                { logo: 'média/M.jpg', nom: 'Marketing', description: 'Mise en place de A à Z d\'une vente de veste vintage qui a connu un grand succès, avec en plus la stratégie de communication.', postImg: 'média/veste.png', lien: 'https://www.instagram.com/p/DSF4roUjbWm/?img_index=3' },
+                                { logo: 'média/G.jpg', nom: 'Gestion de Projet', description: 'Gestion d\'un projet de communication numérique pour une commune de moins de 2000 habitants, et entrepreneuriat dans le secteur numérique.', postImg: 'média/trail.png' }
+                            ], 'competence-rows')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/Marketing.jpg" alt="logo de Marketing et Gestion de projet" /></figure></div>
+                                <div class="card-content">
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Marketing et Gestion de projet</h3></div></div></div>
+                                    <div class="content">Planification, organisation et gestion de ressources pour atteindre des objectifs spécifiques.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Convaincre et organiser</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <div class="card is-clickable projet-card" onclick="showProjet('c4', 'Réseaux sociaux', null, null, 'Gestion de comptes sur les réseaux sociaux', [
+                                { logo: 'média/I.jpg', nom: 'Instagram', description: 'Gestion du compte Instagram du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP I.png', lien: 'https://www.instagram.com/as_la_plestinaise/' },
+                                { logo: 'média/T.jpg', nom: 'Tiktok', description: 'Gestion du compte Tiktok du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP T.png', lien: 'https://www.tiktok.com/@as.la.plestinaise?lang=fr' }
+                            ], 'competence-rows')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/RS.jpg" alt="logo de réseaux sociaux" /></figure></div>
+                                <div class="card-content">
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Réseaux sociaux</h3></div></div></div>
+                                    <div class="content">Création et gestion de comptes sur les réseaux sociaux, avec l'élaboration de contenu et la planification de campagnes.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Gestion de compte sur les réseaux</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-btn" id="compNext" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots" id="compDots" style="display:none;"></div>
+
         </div>
+
 
         <!-- FORMATIONS -->
         <section class="box section-gap formation-box reveal">
@@ -353,12 +425,11 @@
                 <div class="column is-one-third reveal">
                     <div class="card"><div class="card-content">
                         <div class="media">
-                            <div class="media-left"><figure class="image is-48x48"><img src="média/iut.png" alt="logo de l'IUT de Lannion" /></figure></div>
+                            <div class="media-left"><figure class="image is-48x48 formation-logo"><img src="média/iut.png" alt="logo de l'IUT de Lannion" /></figure></div>
                             <div class="media-content">
-                                <div class="columns is-mobile">
-                                    <div class="column"><h3 class="title is-4">BUT Métiers du Multimédia et de l'Internet<br><span class="is-size-6">IUT de Lannion</span></h3><p class="subtitle is-6">Lannion</p></div>
-                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">Depuis 2025</span></div>
-                                </div>
+                                <h3 class="title is-4 formation-title">BUT Métiers du Multimédia et de l'Internet</h3>
+                                <p class="formation-school">IUT de Lannion · Lannion</p>
+                                <span class="tag is-dark formation-tag">Depuis 2025</span>
                             </div>
                         </div>
                         <div class="content">Passionné de communication et de graphisme depuis plusieurs années, ma réorientation s'est porté vers le BUT Métiers du Multimédia et de l'Internet de l'IUT de Lannion. Je suis actuellement en première année, où j'ai déjà pu développer mes compétences en graphisme, audiovisuel, marketing et gestion de projet.</div>
@@ -368,12 +439,11 @@
                 <div class="column is-one-third reveal">
                     <div class="card"><div class="card-content">
                         <div class="media">
-                            <div class="media-left"><figure class="image is-48x48"><img src="média/ubo.png" alt="logo de l'Université de Bretagne Occidentale" /></figure></div>
+                            <div class="media-left"><figure class="image is-48x48 formation-logo"><img src="média/ubo.png" alt="logo de l'Université de Bretagne Occidentale" /></figure></div>
                             <div class="media-content">
-                                <div class="columns is-mobile">
-                                    <div class="column"><h3 class="title is-4">Licence STAPS<br><span class="is-size-6">Université de Bretagne Occidentale</span></h3><p class="subtitle is-6">Brest</p></div>
-                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">2023-2024</span></div>
-                                </div>
+                                <h3 class="title is-4 formation-title">Licence STAPS</h3>
+                                <p class="formation-school">Université de Bretagne Occidentale · Brest</p>
+                                <span class="tag is-dark formation-tag">2023-2024</span>
                             </div>
                         </div>
                         <div class="content">Suite à mon obtention du bac, j'ai intégré une licence STAPS à l'Université de Bretagne Occidentale. J'ai acquis des connaissances en anatomie, psychologie, en pratique sportive notamment en football qui était ma spécialité.</div>
@@ -383,12 +453,11 @@
                 <div class="column is-one-third reveal">
                     <div class="card"><div class="card-content">
                         <div class="media">
-                            <div class="media-left"><figure class="image is-48x48"><img src="média/fld.png" alt="logo du Lycée Félix Le Dantec" /></figure></div>
+                            <div class="media-left"><figure class="image is-48x48 formation-logo"><img src="média/fld.png" alt="logo du Lycée Félix Le Dantec" /></figure></div>
                             <div class="media-content">
-                                <div class="columns is-mobile">
-                                    <div class="column"><h3 class="title is-4">Baccalauréat général<br><span class="is-size-6">Lycée Félix Le Dantec</span></h3><p class="subtitle is-6">Lannion</p></div>
-                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">2020-2023</span></div>
-                                </div>
+                                <h3 class="title is-4 formation-title">Baccalauréat général</h3>
+                                <p class="formation-school">Lycée Félix Le Dantec · Lannion</p>
+                                <span class="tag is-dark formation-tag">2020-2023</span>
                             </div>
                         </div>
                         <div class="content">J'ai obtenu mon baccalauréat général mention bien au lycée Félix Le Dantec de Lannion, avec des spécialités en mathématiques et en SVT.</div>
@@ -600,6 +669,60 @@
         }
 
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeProjet(); });
+
+        // ── CAROUSEL COMPÉTENCES (mobile) ──
+        (function () {
+            function isMobile() { return window.innerWidth <= 768; }
+
+            const desktop = document.querySelector('.comp-desktop');
+            const mobileCarousel = document.querySelector('.comp-mobile');
+            const dotsWrap = document.getElementById('compDots');
+
+            function toggle() {
+                if (isMobile()) {
+                    desktop.style.display = 'none';
+                    mobileCarousel.style.display = 'flex';
+                    dotsWrap.style.display = 'flex';
+                } else {
+                    desktop.style.display = '';
+                    mobileCarousel.style.display = 'none';
+                    dotsWrap.style.display = 'none';
+                }
+            }
+
+            const track = document.getElementById('compTrack');
+            const btnPrev = document.getElementById('compPrev');
+            const btnNext = document.getElementById('compNext');
+            const slides = Array.from(track.querySelectorAll('.carousel-slide'));
+            const total = slides.length;
+            let current = 0;
+
+            // Créer les dots
+            slides.forEach((_, i) => {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === 0 ? ' is-active' : '');
+                dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+                dot.addEventListener('click', () => goTo(i));
+                dotsWrap.appendChild(dot);
+            });
+
+            function goTo(index) {
+                current = Math.max(0, Math.min(index, total - 1));
+                const slideWidth = track.parentElement.offsetWidth;
+                track.style.transform = 'translateX(-' + (current * slideWidth) + 'px)';
+                dotsWrap.querySelectorAll('.carousel-dot').forEach((d, i) => {
+                    d.classList.toggle('is-active', i === current);
+                });
+                btnPrev.disabled = current === 0;
+                btnNext.disabled = current >= total - 1;
+            }
+
+            btnPrev.addEventListener('click', () => goTo(current - 1));
+            btnNext.addEventListener('click', () => goTo(current + 1));
+            window.addEventListener('resize', () => { toggle(); goTo(current); });
+            toggle();
+            goTo(0);
+        })();
 
         document.addEventListener('DOMContentLoaded', () => {
             const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
