@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Portfolio de Malo Le Corre</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -22,84 +19,36 @@
         style="position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
 
     <!-- PAGE D'ACCUEIL SPLASH -->
-    <div id="splashScreen" style="
-    position: fixed;
-    inset: 0;
-    z-index: 9998;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #001440;
-">
-        <!-- Grille de photos -->
-        <div style="
-    position: absolute;
-    inset: 0;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 3px;
-    z-index: 0;
-">
-            <!-- ✏️ 24 photos — remplacez les src par vos propres images -->
+    <div id="splashScreen" style="position:fixed;inset:0;z-index:9998;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:#001440;">
+        <div style="position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(4,1fr);gap:3px;z-index:0;">
             <img src="média/touche.jpg" alt="Malo faisant une touche au foot" style="width:100%;height:100%;object-fit:cover;" />
             <img src="média/IMG_1970.jpeg" alt="photo de malo vu de face" style="width:100%;height:100%;object-fit:cover;" />
             <img src="média/clem.png" alt="visuel de match de foot" style="width:100%;height:100%;object-fit:cover;" />
             <img src="média/emma.JPG" alt="photo de Malo et de sa petite amie" style="width:100%;height:100%;object-fit:cover;" />
-            <div style="overflow:hidden;width:100%;height:100%;">
-                <img src="média/Bordeaux.jpeg" alt="photo d'une page de journal où on voit Malo et ses amis"
-                    style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" />
-            </div>
-            <img src="média/genou.JPG"  alt="Malo glissant sur les genoux au foot" style="width:100%;height:100%;object-fit:cover;" />
-            <div style="overflow:hidden;width:100%;height:100%;">
-                <img src="média/sixte.jpeg" alt="Malo faisant une phot de victoire avec son équipe"
-                    style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" />
-            </div>
+            <div style="overflow:hidden;width:100%;height:100%;"><img src="média/Bordeaux.jpeg" alt="photo d'une page de journal" style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" /></div>
+            <img src="média/genou.JPG" alt="Malo glissant sur les genoux au foot" style="width:100%;height:100%;object-fit:cover;" />
+            <div style="overflow:hidden;width:100%;height:100%;"><img src="média/sixte.jpeg" alt="Malo faisant une photo de victoire" style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" /></div>
             <img src="média/centre.JPG" alt="Malo faisant un centre au foot" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/victoire.jpeg" alt="Malo célébran une victoire de match avec son équipe" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/victoire.jpeg" alt="Malo célébrant une victoire" style="width:100%;height:100%;object-fit:cover;" />
             <img src="média/enola.JPG" alt="Photo de Malo avec ses amis" style="width:100%;height:100%;object-fit:cover;" />
-            <div style="overflow:hidden;width:100%;height:100%;">
-                <img src="média/macchu.jpeg" alt="Photo du Macchu Picchu"
-                    style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" />
-            </div>
-            <img src="média/lac.jpg" alt="Photo de Malo avec une famille typique Péruvienne" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/tonton.jpeg" alt="Photo de Malo en haut d'une montagne avec sont tonton" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/achille.jpeg" alt="Photo d'un ami à Malo sur la Dune du Pila" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/coty.jpg" alt="Photo de célébration d'une victoire au foot" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/six.JPG" alt="Photo de Malo avec son équipe de foot" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/surf.jpg" alt="Photo de Malo et de son ami au surf" style="width:100%;height:100%;object-fit:cover;" />
-            <img src="média/montée.JPG" alt="Photo d'un envahissement de terrain de supporters de foot" style="width:100%;height:100%;object-fit:cover;" />
+            <div style="overflow:hidden;width:100%;height:100%;"><img src="média/macchu.jpeg" alt="Photo du Macchu Picchu" style="width:100%;height:100%;object-fit:cover;transform:rotate(90deg) scale(1.8);transform-origin:center;" /></div>
+            <img src="média/lac.jpg" alt="Photo de Malo avec une famille péruvienne" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/tonton.jpeg" alt="Photo de Malo en montagne avec son tonton" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/achille.jpeg" alt="Photo sur la Dune du Pila" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/coty.jpg" alt="Photo de célébration" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/six.JPG" alt="Photo de Malo avec son équipe" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/surf.jpg" alt="Photo de Malo au surf" style="width:100%;height:100%;object-fit:cover;" />
+            <img src="média/montée.JPG" alt="Photo d'envahissement de terrain" style="width:100%;height:100%;object-fit:cover;" />
         </div>
-        <!-- Overlay sombre -->
         <div style="position:absolute;inset:0;background:rgba(0,20,70,0.58);backdrop-filter:blur(2px);z-index:1;"></div>
-
-        <!-- Contenu centré -->
-        <div
-            style="position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:1.5rem;text-align:center;padding:2rem;">
-
-            <p
-                style="color:rgba(255, 255, 255, 0.73);font-size:0.85rem;letter-spacing:0.2em;text-transform:uppercase;margin:0;">
-                Bienvenue sur mon portfolio
-            </p>
-
-            <h1
-                style="font-size:clamp(2.5rem,6vw,5rem);font-weight:700;color:white;margin:0;line-height:1.1;letter-spacing:-0.02em;">
-                Malo Le Corre
-            </h1>
-
-            <p style="font-size:clamp(0.9rem,2vw,1.1rem);color:rgba(255, 255, 255, 0.879);margin:0;letter-spacing:0.05em;">
-                Alternance en Communication · Graphisme
-            </p>
-
-            <div style="height:2px;width:60px;background:linear-gradient(to right,#5B9AFF,#005CE7);border-radius:2px;">
-            </div>
-
+        <div style="position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:1.5rem;text-align:center;padding:2rem;">
+            <p style="color:rgba(255,255,255,0.73);font-size:0.85rem;letter-spacing:0.2em;text-transform:uppercase;margin:0;">Bienvenue sur mon portfolio</p>
+            <h1 style="font-size:clamp(2.5rem,6vw,5rem);font-weight:700;color:white;margin:0;line-height:1.1;letter-spacing:-0.02em;">Malo Le Corre</h1>
+            <p style="font-size:clamp(0.9rem,2vw,1.1rem);color:rgba(255,255,255,0.879);margin:0;letter-spacing:0.05em;">Alternance en Communication · Graphisme</p>
+            <div style="height:2px;width:60px;background:linear-gradient(to right,#5B9AFF,#005CE7);border-radius:2px;"></div>
             <button id="btnDecouvrir" class="button btn-nav-style" style="margin-top:0.5rem;">
-    Découvrir <i class="fa-solid fa-arrow-right ml-2"></i>
-</button>
-
+                Découvrir <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button>
         </div>
     </div>
 
@@ -108,57 +57,35 @@
         <!-- NAV -->
         <section class="box section-gap navbar-sticky">
             <nav class="navbar navbar-nav" role="navigation" aria-label="main navigation">
-
                 <div class="navbar-brand navbar-brand-custom">
                     <figure class="image is-48x48 navbar-logo">
                         <img src="média/malo.png" alt="Photo de Malo Le Corre en petit" />
                     </figure>
-
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                        data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
                     </a>
                 </div>
-
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-start navbar-start-custom">
                         <div class="buttons navbar-buttons">
-                            <a class="button navbar-button" href="#header">
-                                <i class="fa-solid fa-house mr-2"></i>
-                                <strong>Accueil</strong>
-                            </a>
-                            <a class="button navbar-button" href="#projets">
-                                <i class="fa-solid fa-pencil mr-2"></i>
-                                Projets
-                            </a>
-                            <a class="button navbar-button" href="#competences">
-                                <i class="fa-solid fa-brain mr-2"></i>
-                                Compétences
-                            </a>
+                            <a class="button navbar-button" href="#header"><i class="fa-solid fa-house mr-2"></i><strong>Accueil</strong></a>
+                            <a class="button navbar-button" href="#projets"><i class="fa-solid fa-pencil mr-2"></i>Projets</a>
+                            <a class="button navbar-button" href="#competences"><i class="fa-solid fa-brain mr-2"></i>Compétences</a>
                         </div>
                     </div>
                 </div>
-
                 <div class="navbar-end">
                     <div class="navbar-item navbar-end-item">
                         <div class="buttons navbar-end-buttons">
-                            <a class="button"
-                                href="https://drive.google.com/file/d/1bZ7Irt5dbhVGI-FDCEZc-CcdU5ySkY-N/view?usp=sharing">
-                                <i class="fa-solid fa-file-contract mr-2"></i>
-                                <strong>Mon CV</strong>
+                            <a class="button" href="https://drive.google.com/file/d/1bZ7Irt5dbhVGI-FDCEZc-CcdU5ySkY-N/view?usp=sharing">
+                                <i class="fa-solid fa-file-contract mr-2"></i><strong>Mon CV</strong>
                             </a>
-                            <a class="button navbar-button" href="https://www.linkedin.com/in/malo-le-corre/"
-                                title="LinkedIn">
-                                <i class="fa-brands fa-linkedin mr-2"></i>
-                                Linkedin
+                            <a class="button navbar-button" href="https://www.linkedin.com/in/malo-le-corre/" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin mr-2"></i>Linkedin
                             </a>
                         </div>
                     </div>
                 </div>
-
             </nav>
         </section>
 
@@ -169,38 +96,29 @@
                 <div class="columns is-gapless-mobile is-vcentered">
 
                     <div class="column is-5 reveal-left">
-                        <figure class="image is-square header-figure">
+                        <!-- CORRECTION : suppression de is-square qui forçait un ratio carré via Bulma -->
+                        <figure class="image header-figure">
                             <img src="média/IMG_1970.jpeg" alt="Photo de Malo Le Corre" />
                         </figure>
                     </div>
 
                     <div class="column is-6 ml-6 reveal-right">
                         <p class="header-hello">Hello, moi c'est</p>
-
-                        <!-- h1 : titre principal de la page (unique) -->
-                        <h1 class="title is-2 has-text-right mb-4 is-uppercase header-name">
-                            Malo Le Corre
-                        </h1>
-
+                        <h1 class="title is-2 has-text-right mb-4 is-uppercase header-name">Malo Le Corre</h1>
                         <div class="header-divider"></div>
-
                         <p class="content has-text-right is-size-6 mb-4 header-description">
                             Jeune breton de 20 ans, étudiant en première année de BUT MMI à l'IUT de Lannion. Fasciné
                             par les domaines de la communication et du graphisme depuis longtemps, j'aide bénévolement
                             mon club de foot concernant la gestion de ses réseaux sociaux.
                         </p>
-
                         <div class="header-tag-wrapper">
-                            <span class="header-tag"><i class="fa-solid fa-location-dot mr-1"></i> Bretagne -
-                                Lannion</span>
+                            <span class="header-tag"><i class="fa-solid fa-location-dot mr-1"></i> Bretagne - Lannion</span>
                             <span class="header-tag"><i class="fa-solid fa-graduation-cap mr-1"></i> BUT MMI</span>
                         </div>
-
                         <p class="title is-6 has-text-right mb-4 mt-4 header-tagline">
                             Je suis en recherche d'alternance en communication/graphisme,
                             pour une durée de 2 ans à compter de septembre 2026.
                         </p>
-
                         <button class="button is-small is-pulled-right header-btn" id="btnEnSavoirPlus">
                             En savoir plus <i class="fa-solid fa-arrow-down ml-2"></i>
                         </button>
@@ -214,40 +132,17 @@
         <a id="bio"></a>
         <div id="sectionBio" class="bio-section reveal">
             <section class="box section-gap py-6 px-5 bio-box">
-                <!-- h2 : titre de section -->
                 <h2 class="title has-text-left mb-3">BIO</h2>
                 <div class="columns is-align-items-stretch">
                     <div class="column is-7 bio-text-column reveal-left">
-                        <p class="is-size-6 mt-2 mr-2">
-                            Bonjour ! Moi c'est Malo, un jeune breton, sportif, de 20ans originaire de
-                            Plestin-Les-Grèves, recherchant à vivre de ce que j'aime faire.
-                        </p>
-                        <p class="is-size-6 mt-6 mr-2">
-                            Depuis mon enfance, l'audiovisuel me fascine. Le confinement lors du COVID-19 m'a
-                            permis de découvrir particulièrement le montage photo et vidéo. De plus, ma curiosité m'a
-                            amené vers le monde de la communication. Fort de mon expérience en STAPS, j'ai intégré le
-                            BUT Métier du Multimédia et de l'Internet à Lannion, où je suis actuellement en 1ère année.
-                        </p>
-                        <p class="is-size-6 mt-6 mr-2">
-                            Depuis plusieurs années, mon attachement pour le football se rajoute à celui de la
-                            communication. J'aide au bon fonctionnement de mon club de football en gérant ses différents
-                            réseaux sociaux. Cela me permet de mettre en pratique mes compétences en communication, en
-                            montage vidéo, mais aussi en graphisme. De plus, j'entraine une équipe de jeunes et aide au
-                            bureau du club, le tout bénévolement.
-                        </p>
-                        <p class="is-size-6 mt-6 mr-2">
-                            Déterminé à aller droit au but, je suis actuellement à la recherche d'une alternance qui
-                            pourrait me permettre de fouler les terrains de ces domaines.
-                        </p>
+                        <p class="is-size-6 mt-2 mr-2">Bonjour ! Moi c'est Malo, un jeune breton, sportif, de 20ans originaire de Plestin-Les-Grèves, recherchant à vivre de ce que j'aime faire.</p>
+                        <p class="is-size-6 mt-6 mr-2">Depuis mon enfance, l'audiovisuel me fascine. Le confinement lors du COVID-19 m'a permis de découvrir particulièrement le montage photo et vidéo. De plus, ma curiosité m'a amené vers le monde de la communication. Fort de mon expérience en STAPS, j'ai intégré le BUT Métier du Multimédia et de l'Internet à Lannion, où je suis actuellement en 1ère année.</p>
+                        <p class="is-size-6 mt-6 mr-2">Depuis plusieurs années, mon attachement pour le football se rajoute à celui de la communication. J'aide au bon fonctionnement de mon club de football en gérant ses différents réseaux sociaux. Cela me permet de mettre en pratique mes compétences en communication, en montage vidéo, mais aussi en graphisme. De plus, j'entraine une équipe de jeunes et aide au bureau du club, le tout bénévolement.</p>
+                        <p class="is-size-6 mt-6 mr-2">Déterminé à aller droit au but, je suis actuellement à la recherche d'une alternance qui pourrait me permettre de fouler les terrains de ces domaines.</p>
                     </div>
-
                     <div class="column is-5 bio-image-column reveal-right">
                         <img src="média/touche.jpg" alt="Photo de Malo Le Corre jouant au football" class="bio-image">
-                        <button class="button is-small header-btn mt-3" id="btnReduire">
-                            Réduire <i class="fa-solid fa-arrow-up ml-2"></i>
-                        </button>
-                    </div>
-                    <div class="is-flex is-justify-content-flex-end mt-4">
+                        <button class="button is-small header-btn mt-3" id="btnReduire">Réduire <i class="fa-solid fa-arrow-up ml-2"></i></button>
                     </div>
                 </div>
             </section>
@@ -257,26 +152,8 @@
         <div class="box section-gap skills-ticker-box reveal">
             <div class="skills-ticker-wrapper">
                 <div class="skills-ticker-track">
-                    <span>Créativité</span>
-                    <span>Communication</span>
-                    <span>Travail en équipe</span>
-                    <span>Adaptabilité</span>
-                    <span>Curiosité</span>
-                    <span>Rigueur</span>
-                    <span>Autonomie</span>
-                    <span>Sens de l'organisation</span>
-                    <span>Esprit d'initiative</span>
-                    <span>Écoute active</span>
-                    <span>Créativité</span>
-                    <span>Communication</span>
-                    <span>Travail en équipe</span>
-                    <span>Adaptabilité</span>
-                    <span>Curiosité</span>
-                    <span>Rigueur</span>
-                    <span>Autonomie</span>
-                    <span>Sens de l'organisation</span>
-                    <span>Esprit d'initiative</span>
-                    <span>Écoute active</span>
+                    <span>Créativité</span><span>Communication</span><span>Travail en équipe</span><span>Adaptabilité</span><span>Curiosité</span><span>Rigueur</span><span>Autonomie</span><span>Sens de l'organisation</span><span>Esprit d'initiative</span><span>Écoute active</span>
+                    <span>Créativité</span><span>Communication</span><span>Travail en équipe</span><span>Adaptabilité</span><span>Curiosité</span><span>Rigueur</span><span>Autonomie</span><span>Sens de l'organisation</span><span>Esprit d'initiative</span><span>Écoute active</span>
                 </div>
             </div>
         </div>
@@ -284,46 +161,24 @@
         <!-- PROJETS -->
         <a id="projets"></a>
         <div class="box section-gap projets-box reveal">
-            <!-- h2 : titre de section -->
             <h2 class="title reveal">PROJETS</h2>
-
             <div class="carousel-wrapper">
-                <button class="carousel-btn" id="carouselPrev" aria-label="Précédent">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
-
+                <button class="carousel-btn" id="carouselPrev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
                 <div class="carousel-viewport" id="carouselViewport">
                     <div class="carousel-track" id="carouselTrack">
 
                         <!-- SLIDE 3 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(3, 'Chargé de communication à l\'AS la Plestinaise', ['média/Point classement D1.png', 'média/Programme du mois D2.png', 'média/ANNONCE GROUPE PHASE ÉLITE.png'], 'Depuis 2025', 'Chargé de communication', [
-    { titre: 'Description', texte: 'Depuis 2025, je suis chargé de communication au sein de l\'AS la Plestinaise. Je m\'y occupe bénévolement de la gestion des réseaux sociaux, de la création de visuels et de l\'organisation d\'événements.' },
-    { titre: 'Difficultés', texte: 'Toutes les tâches de communication nécessitent un investissement significatif en temps et en énergie, ce qui est un défi constant. Ce défi est relevé grâce à une organisation rigoureuse que je mets en place avec mon collègue.' },
-    { titre: 'Réalisation', texte: 'Pour réaliser mes créations, j\'utilise Figma, un outil performant qui me permet de concevoir des visuels et de les décliner rapidement. L\'organisation est un aspect crucial de ce projet, compte tenu du volume important de contenus à produire.' }
-], 'top-multi', 'https://www.instagram.com/as_la_plestinaise/')" div class="card-image">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/asp.png" alt="logo de l'AS la Plestinaise" />
-                                    </figure>
-                                </div>
+                                { titre: 'Description', texte: 'Depuis 2025, je suis chargé de communication au sein de l\'AS la Plestinaise. Je m\'y occupe bénévolement de la gestion des réseaux sociaux, de la création de visuels et de l\'organisation d\'événements.' },
+                                { titre: 'Difficultés', texte: 'Toutes les tâches de communication nécessitent un investissement significatif en temps et en énergie, ce qui est un défi constant. Ce défi est relevé grâce à une organisation rigoureuse que je mets en place avec mon collègue.' },
+                                { titre: 'Réalisation', texte: 'Pour réaliser mes créations, j\'utilise Figma, un outil performant qui me permet de concevoir des visuels et de les décliner rapidement. L\'organisation est un aspect crucial de ce projet, compte tenu du volume important de contenus à produire.' }
+                            ], 'top-multi', 'https://www.instagram.com/as_la_plestinaise/')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/asp.png" alt="logo de l'AS la Plestinaise" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Chargé de communication à l'AS la Plestinaise</h3>
-                                            </div>
-                                            <span class="tag is-dark">Depuis 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        Chargé de communication au club de football de l'AS la Plestinaise,
-                                        bénévolement.
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Chargé de communication</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Chargé de communication à l'AS la Plestinaise</h3></div><span class="tag is-dark">Depuis 2025</span></div></div>
+                                    <div class="content">Chargé de communication au club de football de l'AS la Plestinaise, bénévolement.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Chargé de communication</p></div>
                                 </div>
                             </div>
                         </div>
@@ -331,28 +186,13 @@
                         <!-- SLIDE 4 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(4, 'Graphiste à l\'AS la Plestinaise', ['média/1.webp', 'média/2.png', 'média/3.png', 'média/4.png', 'média/5.png', 'média/6.png'], 'Depuis 2025', 'Création de visuels sportifs', [
-    { titre: 'Description', texte: 'Depuis 2025, je suis graphiste au sein du club de l\'AS la Plestinaise. J\'y crée bénévolement les affiches de matchs à l\'aide d\'Adobe Photoshop. Je fais aussi des créations sur mon temps personnel' }
-], 'top-multi-6', 'https://www.instagram.com/malolcr/')">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/visuel.png" alt="visuels graphiques de l'AS la Plestinaise" />
-                                    </figure>
-                                </div>
+                                { titre: 'Description', texte: 'Depuis 2025, je suis graphiste au sein du club de l\'AS la Plestinaise. J\'y crée bénévolement les affiches de matchs à l\'aide d\'Adobe Photoshop. Je fais aussi des créations sur mon temps personnel' }
+                            ], 'top-multi-6', 'https://www.instagram.com/malolcr/')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/visuel.png" alt="visuels graphiques de l'AS la Plestinaise" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Graphiste à l'AS la Plestinaise</h3>
-                                            </div>
-                                            <span class="tag is-dark">Depuis 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">Graphiste au club de football de l'AS la Plestinaise
-                                        bénévolement, ainsi que sur mon temps libre.</div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Création de visuels sportifs</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Graphiste à l'AS la Plestinaise</h3></div><span class="tag is-dark">Depuis 2025</span></div></div>
+                                    <div class="content">Graphiste au club de football de l'AS la Plestinaise bénévolement, ainsi que sur mon temps libre.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Création de visuels sportifs</p></div>
                                 </div>
                             </div>
                         </div>
@@ -360,31 +200,15 @@
                         <!-- SLIDE 5 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(5, 'Chargé de communication et graphiste au BDE MMI Spark', ['média/fleurs.png', 'média/shot.png', 'média/dej.png'], 'Depuis 2026', 'Gestion des réseaux sociaux et création de visuels', [
-    { titre: 'Description', texte: 'Depuis 2026, je suis chargé de communication au sein de l\'AS la Plestinaise. Je m\'y occupe bénévolement de la gestion des réseaux sociaux, de la création de visuels et de l\'organisation d\'événements.' },
-    { titre: 'Difficultés', texte: 'Toutes les tâches de communication nécessitent un investissement en temps et en énergie. Ce défi est relevé grâce à une organisation rigoureuse que je mets en place avec mes différents collègues et amis.' },
-    { titre: 'Réalisation', texte: 'Pour réaliser mes créations, j\'utilise Figma, un outil performant qui me permet de concevoir des visuels et de les décliner rapidement.' }
-], 'top-multi-portrait', 'https://www.instagram.com/bde.mmi.lannion/')">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/spark.png" alt="logo du BDE MMI Spark" />
-                                    </figure>
-                                </div>
+                                { titre: 'Description', texte: 'Depuis 2026, je suis chargé de communication au sein du BDE MMI Spark. Je m\'y occupe bénévolement de la gestion des réseaux sociaux, de la création de visuels et de l\'organisation d\'événements.' },
+                                { titre: 'Difficultés', texte: 'Toutes les tâches de communication nécessitent un investissement en temps et en énergie. Ce défi est relevé grâce à une organisation rigoureuse que je mets en place avec mes différents collègues et amis.' },
+                                { titre: 'Réalisation', texte: 'Pour réaliser mes créations, j\'utilise Figma, un outil performant qui me permet de concevoir des visuels et de les décliner rapidement.' }
+                            ], 'top-multi-portrait', 'https://www.instagram.com/bde.mmi.lannion/')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/spark.png" alt="logo du BDE MMI Spark" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Chargé de communication et graphiste au BDE MMI
-                                                    Spark</h3>
-                                            </div>
-                                            <span class="tag is-dark">Depuis 2026</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">Graphiste et chargé de communication au sein du BDE MMI Spark,
-                                        bénévolement.</div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Gestion des réseaux sociaux et création de visuels</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Chargé de communication et graphiste au BDE MMI Spark</h3></div><span class="tag is-dark">Depuis 2026</span></div></div>
+                                    <div class="content">Graphiste et chargé de communication au sein du BDE MMI Spark, bénévolement.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Gestion des réseaux sociaux et création de visuels</p></div>
                                 </div>
                             </div>
                         </div>
@@ -392,32 +216,15 @@
                         <!-- SLIDE 1 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(1, 'Festival À l\'West Fest', 'média/A l\'West Fest VF.png', 'Janvier 2026', 'Conception d\'une communication visuelle', [
-                                    { titre: 'Les étapes de recherche', texte: 'Je suis d\'abord passé par une étape d\'imagination et de recherche afin de définir l\'orientation visuelle de l\'affiche.' },
-                                    { titre: 'La réalisation', texte: 'Une fois cette étape passée, j\'ai ouvert Adobe Photoshop. Je suis passé par plusieurs étapes dans ma conception d\'affiche, j\'ai réalisé une première version, puis je l\'ai modifié pour arriver à mon résultat final.' },
-                                    { titre: 'Problèmes rencontrés et solutions', texte: 'J\'ai eu beaucoup de difficultés à trouver mon inspiration finale, ce qui m\'a poussé à explorer différentes approches visuelles. Ma version finale est celle qui se rapproche le plus de mon idée de base : on retrouve le phare de Perros-Guirec, qui est un symbole de la côte de Granit Rose. Les éléments du multimédia sont mis en perspective pour créer un effet de tornade autour du phare.' }
-                                ])">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/A l'West Fest.jpg" alt="affiche du festival À l'West Fest" />
-                                    </figure>
-                                </div>
+                                { titre: 'Les étapes de recherche', texte: 'Je suis d\'abord passé par une étape d\'imagination et de recherche afin de définir l\'orientation visuelle de l\'affiche.' },
+                                { titre: 'La réalisation', texte: 'Une fois cette étape passée, j\'ai ouvert Adobe Photoshop. Je suis passé par plusieurs étapes dans ma conception d\'affiche, j\'ai réalisé une première version, puis je l\'ai modifié pour arriver à mon résultat final.' },
+                                { titre: 'Problèmes rencontrés et solutions', texte: 'J\'ai eu beaucoup de difficultés à trouver mon inspiration finale, ce qui m\'a poussé à explorer différentes approches visuelles. Ma version finale est celle qui se rapproche le plus de mon idée de base : on retrouve le phare de Perros-Guirec, qui est un symbole de la côte de Granit Rose.' }
+                            ])">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/A l'West Fest.jpg" alt="affiche du festival À l'West Fest" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Festival À l'West Fest</h3>
-                                            </div>
-                                            <span class="tag is-dark">Janvier 2026</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        Conception d'une affiche pour le festival multimédia À l'West Fest, organisé par
-                                        notre IUT, réalisé sur Adobe Photoshop.
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Conception d'une communication visuelle</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Festival À l'West Fest</h3></div><span class="tag is-dark">Janvier 2026</span></div></div>
+                                    <div class="content">Conception d'une affiche pour le festival multimédia À l'West Fest, organisé par notre IUT, réalisé sur Adobe Photoshop.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Conception d'une communication visuelle</p></div>
                                 </div>
                             </div>
                         </div>
@@ -425,32 +232,14 @@
                         <!-- SLIDE 2 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(2, 'Festival À l\'West Fest', ['média/Plan de Travail 1.png', 'média/Plan de Travail 2.png', 'média/Plan de Travail 12.png'], 'Janvier 2026', 'Conception d\'une recommandation de communication numérique', [
-                                    { titre: 'Les étapes du projet', texte: 'Tout d\'abord, j\'ai effectué plusieurs audits, notamment de contexte et de concurrence, afin de recueillir les informations nécessaires sur le festival. Ensuite, j\'ai confectionné un plan de communication et créé une charte graphique. Puis, j\'ai réalisé un prototype de post Instagram pour le festival. J\'ai aussi écrit un communiqué de presse, ainsi que des e-mails pour contacter de potentiels partenaires.' },
-                                    { titre: 'La réalisation', texte: 'La réalisation de la charte graphique et des prototypes a demandé beaucoup de concertation et de réflexion avec mon équipe. Tout cela a abouti à notre version finale, qui correspond aux recherches sur le festival que nous avons effectuées en amont.' }
-                                ], 'top-multi')">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/Prototypes.jpg" alt="Prototypes du festival À l'West Fest" />
-                                    </figure>
-                                </div>
+                                { titre: 'Les étapes du projet', texte: 'Tout d\'abord, j\'ai effectué plusieurs audits, notamment de contexte et de concurrence, afin de recueillir les informations nécessaires sur le festival. Ensuite, j\'ai confectionné un plan de communication et créé une charte graphique.' },
+                                { titre: 'La réalisation', texte: 'La réalisation de la charte graphique et des prototypes a demandé beaucoup de concertation et de réflexion avec mon équipe. Tout cela a abouti à notre version finale.' }
+                            ], 'top-multi')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/Prototypes.jpg" alt="Prototypes du festival À l'West Fest" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Festival À l'West Fest</h3>
-                                            </div>
-                                            <span class="tag is-dark">Janvier 2026</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        Conception d'une recommandation de communication numérique pour le festival À
-                                        l'West Fest.
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Conception d'une recommandation de communication
-                                            numérique</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Festival À l'West Fest</h3></div><span class="tag is-dark">Janvier 2026</span></div></div>
+                                    <div class="content">Conception d'une recommandation de communication numérique pour le festival À l'West Fest.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Conception d'une recommandation de communication numérique</p></div>
                                 </div>
                             </div>
                         </div>
@@ -458,302 +247,152 @@
                         <!-- SLIDE 6 -->
                         <div class="carousel-slide">
                             <div class="card is-clickable projet-card" onclick="showProjet(6, 'Film de prévention', ['média/screen2.png', 'média/screen1.png'], 'Décembre 2025', 'Production d\'un contenu audio et vidéo', [
-                                    { titre: 'Description', texte: 'Dans le cadre d\'un projet MMI, on a dû réaliser un film de prévention dont le thème était libre.' },
-                                    { titre: 'Réalisation', texte: 'Pour réaliser ce film, on est d\'abord passé par une étape d\'écriture d\'un scénario. Ensuite nous avons fais la liste de tout le matériel et accessoires nécessaires ainsi que de choisir le lieu de tournage. On a donc effectué un storyboard et une shotlist. Nous avons ensuite tourné le film, puis nous l\'avons monté.' },
-                                    { titre: 'Rôles', texte: 'J\'ai eu un rôle dans l\'écriture du scénario, ainsi que dans la réalisation de la shotlist. Sur le tournage j\'étais acteur, mais aussi preneur de son quand je n\'apparaissais pas devant la caméra. Ensuite, j\'ai monté le film de A à Z.' }
-                                ], 'top-multi-16-9', 'https://youtu.be/YwrvDrXCh0I')">
-                                <div class="card-image">
-                                    <figure class="image is-4by3">
-                                        <img src="média/film.png" alt="Images du film de prévention" />
-                                    </figure>
-                                </div>
+                                { titre: 'Description', texte: 'Dans le cadre d\'un projet MMI, on a dû réaliser un film de prévention dont le thème était libre.' },
+                                { titre: 'Réalisation', texte: 'Pour réaliser ce film, on est d\'abord passé par une étape d\'écriture d\'un scénario. Ensuite nous avons fais la liste de tout le matériel et accessoires nécessaires ainsi que de choisir le lieu de tournage.' },
+                                { titre: 'Rôles', texte: 'J\'ai eu un rôle dans l\'écriture du scénario, ainsi que dans la réalisation de la shotlist. Sur le tournage j\'étais acteur, mais aussi preneur de son. Ensuite, j\'ai monté le film de A à Z.' }
+                            ], 'top-multi-16-9', 'https://youtu.be/YwrvDrXCh0I')">
+                                <div class="card-image"><figure class="image is-4by3"><img src="média/film.png" alt="Images du film de prévention" /></figure></div>
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content columns">
-                                            <div class="column">
-                                                <!-- h3 : titre de carte (niveau 3) -->
-                                                <h3 class="title is-4">Film de prévention</h3>
-                                            </div>
-                                            <span class="tag is-dark">Décembre 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">Film de prévention contre les dangers de l'alcool, dans le
-                                        cadre d'un projet MMI.</div>
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">Production d'un contenu audio et vidéo</p>
-                                    </div>
+                                    <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Film de prévention</h3></div><span class="tag is-dark">Décembre 2025</span></div></div>
+                                    <div class="content">Film de prévention contre les dangers de l'alcool, dans le cadre d'un projet MMI.</div>
+                                    <div class="media-content"><p class="subtitle is-6">Production d'un contenu audio et vidéo</p></div>
                                 </div>
                             </div>
                         </div>
 
-                    </div><!-- /carousel-track -->
-                </div><!-- /carousel-viewport -->
-
-                <button class="carousel-btn" id="carouselNext" aria-label="Suivant">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
-            </div><!-- /carousel-wrapper -->
-
+                    </div>
+                </div>
+                <button class="carousel-btn" id="carouselNext" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
             <div class="carousel-dots" id="carouselDots"></div>
-
         </div>
 
-        <!-- MODALE PROJET (partagée avec compétences) -->
+        <!-- MODALE PROJET -->
         <div id="modalProjet" class="modal-overlay" onclick="closeProjet()">
             <div class="modal-content" onclick="event.stopPropagation()">
                 <button class="delete is-large modal-close-btn" onclick="closeProjet()"></button>
-
                 <div class="is-flex is-justify-content-space-between is-align-items-flex-start mb-1">
-                    <!-- h2 : titre de dialogue/modale (pas le titre principal de la page) -->
                     <h2 class="title is-3 mb-0" id="projetTitle"></h2>
                     <span class="tag is-dark is-medium ml-4" id="projetDate"></span>
                 </div>
-
                 <p class="subtitle is-6 has-text-grey mb-4" id="projetDomaine"></p>
-
                 <div id="projetBody"></div>
-
             </div>
         </div>
 
         <!-- COMPÉTENCES -->
         <a id="competences"></a>
         <div class="box section-gap competences-box reveal">
-            <!-- h2 : titre de section -->
             <h2 class="title">COMPÉTENCES</h2>
-
             <div class="columns reveal-stagger">
 
-                <!-- COMPÉTENCE 1 -->
                 <div class="column is-one-quarter reveal-scale">
                     <div class="card is-clickable projet-card" onclick="showProjet('c1', 'Graphisme', null, null, 'Création graphique', [
-                            { logo: 'média/Photoshop.jpg', nom: 'Adobe Photoshop', description: 'Utilisation pour la conception d\'affiches de matchs et de visuels événementiels.', postImg: 'média/1.png' },
-                            { logo: 'média/Figma.jpg', nom: 'Figma', description: 'Création de visuels pour les réseaux sociaux, ainsi que certaines visuels physiques.', postImg: 'média/Point classement D1.png' }
-                        ], 'competence-rows')">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="média/Ps.jpg" alt="Logiciels de graphisme" />
-                            </figure>
-                        </div>
+                        { logo: 'média/Photoshop.jpg', nom: 'Adobe Photoshop', description: 'Utilisation pour la conception d\'affiches de matchs et de visuels événementiels.', postImg: 'média/1.png' },
+                        { logo: 'média/Figma.jpg', nom: 'Figma', description: 'Création de visuels pour les réseaux sociaux, ainsi que certains visuels physiques.', postImg: 'média/Point classement D1.png' }
+                    ], 'competence-rows')">
+                        <div class="card-image"><figure class="image is-4by3"><img src="média/Ps.jpg" alt="Logiciels de graphisme" /></figure></div>
                         <div class="card-content">
-                            <div class="media">
-                                <div class="media-content columns">
-                                    <div class="column">
-                                        <!-- h3 : titre de carte (niveau 3) -->
-                                        <h3 class="title is-4">Graphisme</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Conception de solutions visuelles pour transmettre un message, une idée ou une
-                                information à un public précis.
-                            </div>
-                            <div class="media-content">
-                                <p class="subtitle is-6">Création graphique</p>
-                            </div>
+                            <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Graphisme</h3></div></div></div>
+                            <div class="content">Conception de solutions visuelles pour transmettre un message, une idée ou une information à un public précis.</div>
+                            <div class="media-content"><p class="subtitle is-6">Création graphique</p></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- COMPÉTENCE 2 -->
                 <div class="column is-one-quarter reveal-scale">
                     <div class="card is-clickable projet-card" onclick="showProjet('c2', 'Audiovisuel', null, null, 'Conception audiovisuelle', [
-                           { logo: 'média/Première.jpg', nom: 'Adobe PremierePro', description: 'Montage de vidéos courtes au format vertical pour Instagram et Tiktok.', postImg: 'média/SC.png', lien: 'https://www.instagram.com/reel/DHjDT1ONasw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' },
-                            { logo: 'média/DV.jpg', nom: 'DaVinci Resolve', description: 'Montage d\'un film de sensibilisation contre les dangers de l\'alcool.', postImg: 'média/film1.png', lien: 'https://youtu.be/YwrvDrXCh0I' }
-                        ], 'competence-rows')">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="média/Pr.jpg" alt="Logiciels d'audiovisuel" />
-                            </figure>
-                        </div>
+                        { logo: 'média/Première.jpg', nom: 'Adobe PremierePro', description: 'Montage de vidéos courtes au format vertical pour Instagram et Tiktok.', postImg: 'média/SC.png', lien: 'https://www.instagram.com/reel/DHjDT1ONasw/' },
+                        { logo: 'média/DV.jpg', nom: 'DaVinci Resolve', description: 'Montage d\'un film de sensibilisation contre les dangers de l\'alcool.', postImg: 'média/film1.png', lien: 'https://youtu.be/YwrvDrXCh0I' }
+                    ], 'competence-rows')">
+                        <div class="card-image"><figure class="image is-4by3"><img src="média/Pr.jpg" alt="Logiciels d'audiovisuel" /></figure></div>
                         <div class="card-content">
-                            <div class="media">
-                                <div class="media-content columns">
-                                    <div class="column">
-                                        <!-- h3 : titre de carte (niveau 3) -->
-                                        <h3 class="title is-4">Audiovisuel</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Combinaison entre le son et l'image pour créer une œuvre, un contenu ou un support de
-                                communication.
-                            </div>
-                            <div class="media-content">
-                                <p class="subtitle is-6">Conception audiovisuelle</p>
-                            </div>
+                            <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Audiovisuel</h3></div></div></div>
+                            <div class="content">Combinaison entre le son et l'image pour créer une œuvre, un contenu ou un support de communication.</div>
+                            <div class="media-content"><p class="subtitle is-6">Conception audiovisuelle</p></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- COMPÉTENCE 3 -->
                 <div class="column is-one-quarter reveal-scale">
                     <div class="card is-clickable projet-card" onclick="showProjet('c3', 'Marketing et Gestion de projet', null, null, 'Convaincre et organiser', [
-                            { logo: 'média/M.jpg', nom: 'Marketing', description: 'Mise en place de A à Z d\'une vente de veste vintage qui a connu un grand succès, avec en plus la stratégie de communication.', postImg: 'média/veste.png', lien: 'https://www.instagram.com/p/DSF4roUjbWm/?img_index=3' },,
-                            { logo: 'média/G.jpg', nom: 'Gestion de Projet', description: 'Gestion d\'un projet de communication numérique pour une commune de moins de 2000 habitants, et entrepreneuriat dans le secteur numérique.', postImg: 'média/trail.png' }
-                        ], 'competence-rows')">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="média/Marketing.jpg" alt="logo de Marketing et Gestion de projet" />
-                            </figure>
-                        </div>
+                        { logo: 'média/M.jpg', nom: 'Marketing', description: 'Mise en place de A à Z d\'une vente de veste vintage qui a connu un grand succès, avec en plus la stratégie de communication.', postImg: 'média/veste.png', lien: 'https://www.instagram.com/p/DSF4roUjbWm/?img_index=3' },
+                        { logo: 'média/G.jpg', nom: 'Gestion de Projet', description: 'Gestion d\'un projet de communication numérique pour une commune de moins de 2000 habitants, et entrepreneuriat dans le secteur numérique.', postImg: 'média/trail.png' }
+                    ], 'competence-rows')">
+                        <div class="card-image"><figure class="image is-4by3"><img src="média/Marketing.jpg" alt="logo de Marketing et Gestion de projet" /></figure></div>
                         <div class="card-content">
-                            <div class="media">
-                                <div class="media-content columns">
-                                    <div class="column">
-                                        <!-- h3 : titre de carte (niveau 3) -->
-                                        <h3 class="title is-4">Marketing et Gestion de projet</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Planification, organisation et gestion de ressources pour atteindre des objectifs
-                                spécifiques dans le cadre d'un projet ou d'une campagne marketing.
-                            </div>
-                            <div class="media-content">
-                                <p class="subtitle is-6">Convaincre et organiser</p>
-                            </div>
+                            <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Marketing et Gestion de projet</h3></div></div></div>
+                            <div class="content">Planification, organisation et gestion de ressources pour atteindre des objectifs spécifiques.</div>
+                            <div class="media-content"><p class="subtitle is-6">Convaincre et organiser</p></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- COMPÉTENCE 4 -->
                 <div class="column is-one-quarter reveal-scale">
                     <div class="card is-clickable projet-card" onclick="showProjet('c4', 'Réseaux sociaux', null, null, 'Gestion de comptes sur les réseaux sociaux', [
-                            { logo: 'média/I.jpg', nom: 'Instagram', description: 'Gestion du compte Instagram du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP I.png', lien: 'https://www.instagram.com/as_la_plestinaise/' },
-                            { logo: 'média/T.jpg', nom: 'Tiktok', description: 'Gestion du compte Tiktok du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP T.png', lien: 'https://www.tiktok.com/@as.la.plestinaise?lang=fr' }
-                        ], 'competence-rows')">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="média/RS.jpg" alt="logo de réseaux sociaux" />
-                            </figure>
-                        </div>
+                        { logo: 'média/I.jpg', nom: 'Instagram', description: 'Gestion du compte Instagram du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP I.png', lien: 'https://www.instagram.com/as_la_plestinaise/' },
+                        { logo: 'média/T.jpg', nom: 'Tiktok', description: 'Gestion du compte Tiktok du club de foot de l\'AS la Plestinaise.', postImg: 'média/ASP T.png', lien: 'https://www.tiktok.com/@as.la.plestinaise?lang=fr' }
+                    ], 'competence-rows')">
+                        <div class="card-image"><figure class="image is-4by3"><img src="média/RS.jpg" alt="logo de réseaux sociaux" /></figure></div>
                         <div class="card-content">
-                            <div class="media">
-                                <div class="media-content columns">
-                                    <div class="column">
-                                        <!-- h3 : titre de carte (niveau 3) -->
-                                        <h3 class="title is-4">Réseaux sociaux</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Création et gestion de comptes sur les réseaux sociaux, avec l'élaboration de contenu et
-                                la planification de campagnes.
-                            </div>
-                            <div class="media-content">
-                                <p class="subtitle is-6">Gestion de compte sur les réseaux</p>
-                            </div>
+                            <div class="media"><div class="media-content columns"><div class="column"><h3 class="title is-4">Réseaux sociaux</h3></div></div></div>
+                            <div class="content">Création et gestion de comptes sur les réseaux sociaux, avec l'élaboration de contenu et la planification de campagnes.</div>
+                            <div class="media-content"><p class="subtitle is-6">Gestion de compte sur les réseaux</p></div>
                         </div>
                     </div>
                 </div>
 
-            </div><!-- /columns -->
-
+            </div>
         </div>
 
         <!-- FORMATIONS -->
         <section class="box section-gap formation-box reveal">
-            <!-- h2 : titre de section -->
             <h2 class="title">FORMATIONS</h2>
             <div class="columns reveal-stagger">
 
                 <div class="column is-one-third reveal">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="média/iut.png" alt="logo de l'IUT de Lannion" />
-                                    </figure>
+                    <div class="card"><div class="card-content">
+                        <div class="media">
+                            <div class="media-left"><figure class="image is-48x48"><img src="média/iut.png" alt="logo de l'IUT de Lannion" /></figure></div>
+                            <div class="media-content">
+                                <div class="columns is-mobile">
+                                    <div class="column"><h3 class="title is-4">BUT Métiers du Multimédia et de l'Internet<br><span class="is-size-6">IUT de Lannion</span></h3><p class="subtitle is-6">Lannion</p></div>
+                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">Depuis 2025</span></div>
                                 </div>
-                                <div class="media-content">
-                                    <div class="columns is-mobile">
-                                        <div class="column">
-                                            <!-- h3 : titre de carte formation (niveau 3) -->
-                                            <h3 class="title is-4">BUT Métiers du Multimédia et de l'Internet<br><span
-                                                    class="is-size-6">IUT de Lannion</span></h3>
-                                            <p class="subtitle is-6">Lannion</p>
-                                        </div>
-                                        <div class="column is-narrow has-text-right">
-                                            <span class="tag is-dark">Depuis 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Passionné de communication et de graphisme depuis plusieurs années, ma réorientation
-                                s'est porté vers le BUT Métiers du Multimédia et de l'Internet de l'IUT de Lannion. Je
-                                suis actuellement en première année, où j'ai déjà pu développer mes compétences en
-                                graphisme, audiovisuel, marketing et gestion de projet à travers divers projets
-                                étudiants et personnels.
                             </div>
                         </div>
-                    </div>
+                        <div class="content">Passionné de communication et de graphisme depuis plusieurs années, ma réorientation s'est porté vers le BUT Métiers du Multimédia et de l'Internet de l'IUT de Lannion. Je suis actuellement en première année, où j'ai déjà pu développer mes compétences en graphisme, audiovisuel, marketing et gestion de projet.</div>
+                    </div></div>
                 </div>
 
                 <div class="column is-one-third reveal">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="média/ubo.png" alt="logo de l'Université de Bretagne Occidentale" />
-                                    </figure>
+                    <div class="card"><div class="card-content">
+                        <div class="media">
+                            <div class="media-left"><figure class="image is-48x48"><img src="média/ubo.png" alt="logo de l'Université de Bretagne Occidentale" /></figure></div>
+                            <div class="media-content">
+                                <div class="columns is-mobile">
+                                    <div class="column"><h3 class="title is-4">Licence STAPS<br><span class="is-size-6">Université de Bretagne Occidentale</span></h3><p class="subtitle is-6">Brest</p></div>
+                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">2023-2024</span></div>
                                 </div>
-                                <div class="media-content">
-                                    <div class="columns is-mobile">
-                                        <div class="column">
-                                            <!-- h3 : titre de carte formation (niveau 3) -->
-                                            <h3 class="title is-4">Licence STAPS<br><span class="is-size-6">Université de
-                                                    Bretagne Occidentale</span></h3>
-                                            <p class="subtitle is-6">Brest</p>
-                                        </div>
-                                        <div class="column is-narrow has-text-right">
-                                            <span class="tag is-dark">2023-2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                Suite à mon obtention du bac, j'ai intégré une licence STAPS à l'Université de Bretagne
-                                Occidentale. J'ai acquis des connaissances en anatomie, psychologie, en pratique
-                                sportive notamment en football qui était ma spécialité. Après la validation de ma 1ère
-                                annéee, j'ai décidé d'arrêter et de consacrer une année à ma réorientation.
                             </div>
                         </div>
-                    </div>
+                        <div class="content">Suite à mon obtention du bac, j'ai intégré une licence STAPS à l'Université de Bretagne Occidentale. J'ai acquis des connaissances en anatomie, psychologie, en pratique sportive notamment en football qui était ma spécialité.</div>
+                    </div></div>
                 </div>
 
                 <div class="column is-one-third reveal">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="média/fld.png" alt="logo du Lycée Félix Le Dantec" />
-                                    </figure>
+                    <div class="card"><div class="card-content">
+                        <div class="media">
+                            <div class="media-left"><figure class="image is-48x48"><img src="média/fld.png" alt="logo du Lycée Félix Le Dantec" /></figure></div>
+                            <div class="media-content">
+                                <div class="columns is-mobile">
+                                    <div class="column"><h3 class="title is-4">Baccalauréat général<br><span class="is-size-6">Lycée Félix Le Dantec</span></h3><p class="subtitle is-6">Lannion</p></div>
+                                    <div class="column is-narrow has-text-right"><span class="tag is-dark">2020-2023</span></div>
                                 </div>
-                                <div class="media-content">
-                                    <div class="columns is-mobile">
-                                        <div class="column">
-                                            <!-- h3 : titre de carte formation (niveau 3) -->
-                                            <h3 class="title is-4">Baccalauréat général<br><span class="is-size-6">Lycée
-                                                    Félix Le Dantec</span></h3>
-                                            <p class="subtitle is-6">Lannion</p>
-                                        </div>
-                                        <div class="column is-narrow has-text-right">
-                                            <span class="tag is-dark">2020-2023</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                J'ai obtenu mon baccalauréat général mention bien au lycée Félix Le Dantec de Lannion,
-                                avec des spécialités en mathématiques et en SVT.
                             </div>
                         </div>
-                    </div>
+                        <div class="content">J'ai obtenu mon baccalauréat général mention bien au lycée Félix Le Dantec de Lannion, avec des spécialités en mathématiques et en SVT.</div>
+                    </div></div>
                 </div>
 
             </div>
@@ -761,52 +400,29 @@
 
         <!-- EXPÉRIENCES -->
         <section class="box section-gap experiences-box reveal">
-            <!-- h2 : titre de section -->
             <h2 class="title">EXPÉRIENCES</h2>
 
             <section class="box mb-5 reveal-left">
                 <div class="columns">
-                    <div class="column is-narrow">
-                        <figure class="image is-48x48">
-                            <img src="média/plestin.png" alt="logo de la mairie de Plestin-les-Grèves">
-                        </figure>
-                    </div>
+                    <div class="column is-narrow"><figure class="image is-48x48"><img src="média/plestin.png" alt="logo de la mairie de Plestin-les-Grèves"></figure></div>
                     <div class="column">
-                        <!-- h3 : titre d'expérience (niveau 3) -->
                         <h3 class="title is-4">Stage en communication</h3>
                         <p class="subtitle is-6">Plestin-les-Grèves</p>
-                        <div class="content">
-                            En mars 2025, j'ai effectué un stage dans les service communication de la mairire de la
-                            ville de Plestin-les-Grèves. J'ai créé des affiches, géré le compte Instagram, écris des
-                            newsletters ou encore participé à la refonte du site web.
-                        </div>
+                        <div class="content">En mars 2025, j'ai effectué un stage dans le service communication de la mairie de la ville de Plestin-les-Grèves. J'ai créé des affiches, géré le compte Instagram, écrit des newsletters ou encore participé à la refonte du site web.</div>
                     </div>
-                    <div class="column is-narrow has-text-right">
-                        <span class="tag is-dark">Mars 2025</span>
-                    </div>
+                    <div class="column is-narrow has-text-right"><span class="tag is-dark">Mars 2025</span></div>
                 </div>
             </section>
 
             <section class="box mb-5 reveal-right">
                 <div class="columns">
-                    <div class="column is-narrow">
-                        <figure class="image is-48x48">
-                            <img src="média/U.png" alt="logo de Super U">
-                        </figure>
-                    </div>
+                    <div class="column is-narrow"><figure class="image is-48x48"><img src="média/U.png" alt="logo de Super U"></figure></div>
                     <div class="column">
-                        <!-- h3 : titre d'expérience (niveau 3) -->
                         <h3 class="title is-4">Employé commercial à Super U</h3>
                         <p class="subtitle is-6">Plestin-les-Grèves</p>
-                        <div class="content">
-                            Depuis 2023, toutes les vacances scolaires, je travaille en tant qu'employé commercial au
-                            Super U de Plestin-les-Grèves. J'y ai développé des compétences en relation client, gestion
-                            de stock ou encore travail d'équipe.
-                        </div>
+                        <div class="content">Depuis 2023, toutes les vacances scolaires, je travaille en tant qu'employé commercial au Super U de Plestin-les-Grèves. J'y ai développé des compétences en relation client, gestion de stock ou encore travail d'équipe.</div>
                     </div>
-                    <div class="column is-narrow has-text-right">
-                        <span class="tag is-dark">Vacances scolaires 2023 - Aujourd'hui</span>
-                    </div>
+                    <div class="column is-narrow has-text-right"><span class="tag is-dark">Vacances scolaires 2023 - Aujourd'hui</span></div>
                 </div>
             </section>
 
@@ -815,40 +431,18 @@
     </div>
 
     <footer class="footer mt-6 reveal">
-        <p class="is-size-3 has-text-centered mb-3">
-            Voilà, maintenant vous en savez un peu plus sur moi !
-        </p>
-
-        <p class="is-size-6 has-text-centered mb-5">
-            Si vous êtes à la recherche d'un alternant curieux et motivé, n'hésitez pas à me contacter.
-        </p>
-
+        <p class="is-size-3 has-text-centered mb-3">Voilà, maintenant vous en savez un peu plus sur moi !</p>
+        <p class="is-size-6 has-text-centered mb-5">Si vous êtes à la recherche d'un alternant curieux et motivé, n'hésitez pas à me contacter.</p>
         <div class="footer-links">
-            <a href="https://www.linkedin.com/in/malo-le-corre/" title="LinkedIn" class="button is-medium">
-                <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
-                <span>Mon Linkedin</span>
-            </a>
-            <a href="mailto:malo.lecorrepro@gmail.com" class="button is-medium">
-                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                <strong>malo.lecorrepro@gmail.com</strong>
-            </a>
-            <a href="https://drive.google.com/file/d/1bZ7Irt5dbhVGI-FDCEZc-CcdU5ySkY-N/view?usp=sharing"
-                class="button is-medium">
-                <span class="icon"><i class="fa-solid fa-file-contract"></i></span>
-                <span>Mon CV</span>
-            </a>
+            <a href="https://www.linkedin.com/in/malo-le-corre/" title="LinkedIn" class="button is-medium"><span class="icon"><i class="fa-brands fa-linkedin"></i></span><span>Mon Linkedin</span></a>
+            <a href="mailto:malo.lecorrepro@gmail.com" class="button is-medium"><span class="icon"><i class="fa-solid fa-envelope"></i></span><strong>malo.lecorrepro@gmail.com</strong></a>
+            <a href="https://drive.google.com/file/d/1bZ7Irt5dbhVGI-FDCEZc-CcdU5ySkY-N/view?usp=sharing" class="button is-medium"><span class="icon"><i class="fa-solid fa-file-contract"></i></span><span>Mon CV</span></a>
         </div>
-
-        <p class="has-text-centered mt-5"
-            style="font-size: 0.75rem; color: rgba(255,255,255,0.2); letter-spacing: 0.05em;">
-            © 2026 Malo Le Corre · Portfolio
-        </p>
+        <p class="has-text-centered mt-5" style="font-size:0.75rem;color:rgba(255,255,255,0.2);letter-spacing:0.05em;">© 2026 Malo Le Corre · Portfolio</p>
     </footer>
 
     <script>
-        // ── SPLASH SCREEN ─────────────────────────────
         document.body.classList.add('splash-active');
-
         document.getElementById('btnDecouvrir').addEventListener('click', () => {
             const splash = document.getElementById('splashScreen');
             splash.classList.add('is-hidden');
@@ -856,13 +450,12 @@
             setTimeout(() => splash.remove(), 900);
         });
 
-        // ── CAROUSEL ─────────────────────────────────────────────────────
         (function () {
-    function getVisible() {
-        if (window.innerWidth <= 768) return 1;
-        if (window.innerWidth <= 1024) return 2;
-        return 3;
-    }
+            function getVisible() {
+                if (window.innerWidth <= 768) return 1;
+                if (window.innerWidth <= 1024) return 2;
+                return 3;
+            }
             const track = document.getElementById('carouselTrack');
             const dotsWrap = document.getElementById('carouselDots');
             const btnPrev = document.getElementById('carouselPrev');
@@ -872,7 +465,7 @@
             let current = 0;
 
             slides.forEach((_, i) => {
-    if (i > total - getVisible()) return;
+                if (i > total - getVisible()) return;
                 const dot = document.createElement('button');
                 dot.className = 'carousel-dot' + (i === 0 ? ' is-active' : '');
                 dot.setAttribute('aria-label', 'Slide ' + (i + 1));
@@ -898,19 +491,12 @@
             goTo(0);
         })();
 
-        // ── MODALE PROJETS & COMPÉTENCES ──────────────────────────────────
         function showProjet(id, title, img, date, domaine, paragraphs, layout, lien) {
             document.getElementById('projetTitle').textContent = title;
             const dateEl = document.getElementById('projetDate');
-            if (date) {
-                dateEl.textContent = date;
-                dateEl.style.display = '';
-            } else {
-                dateEl.textContent = '';
-                dateEl.style.display = 'none';
-            }
+            if (date) { dateEl.textContent = date; dateEl.style.display = ''; }
+            else { dateEl.textContent = ''; dateEl.style.display = 'none'; }
             document.getElementById('projetDomaine').textContent = domaine;
-
             const body = document.getElementById('projetBody');
             body.innerHTML = '';
 
@@ -928,10 +514,8 @@
                         fig.className = layout === 'top-multi-portrait' ? 'modal-gallery-fig-portrait'
                             : layout === 'top-multi-16-9' ? 'modal-gallery-fig-16-9' : 'modal-gallery-fig';
                         const imgEl = document.createElement('img');
-                        imgEl.src = src;
-                        imgEl.alt = title;
-                        fig.appendChild(imgEl);
-                        row.appendChild(fig);
+                        imgEl.src = src; imgEl.alt = title;
+                        fig.appendChild(imgEl); row.appendChild(fig);
                     });
                     wrapper.appendChild(row);
                 });
@@ -939,130 +523,70 @@
                 const textDiv = document.createElement('div');
                 textDiv.className = 'content';
                 paragraphs.forEach(({ titre, texte }) => {
-                    // h3 : sous-titres dans la modale (niveau 3)
-                    const h = document.createElement('h3');
-                    h.className = 'title is-5 mb-1';
-                    h.textContent = titre;
-                    const p = document.createElement('p');
-                    p.className = 'mb-4';
-                    p.textContent = texte;
-                    textDiv.appendChild(h);
-                    textDiv.appendChild(p);
+                    const h = document.createElement('h3'); h.className = 'title is-5 mb-1'; h.textContent = titre;
+                    const p = document.createElement('p'); p.className = 'mb-4'; p.textContent = texte;
+                    textDiv.appendChild(h); textDiv.appendChild(p);
                 });
                 body.appendChild(textDiv);
-
                 if (lien) {
                     const btnWrapper = document.createElement('div');
-                    btnWrapper.style.cssText = 'display:flex; justify-content:flex-end; margin-top:1rem;';
+                    btnWrapper.style.cssText = 'display:flex;justify-content:flex-end;margin-top:1rem;';
                     const btn = document.createElement('a');
-                    btn.href = lien;
-                    btn.target = '_blank';
-                    btn.rel = 'noopener noreferrer';
-                    btn.className = 'button is-dark';
-                    btn.textContent = 'Voir plus';
-                    btnWrapper.appendChild(btn);
-                    body.appendChild(btnWrapper);
+                    btn.href = lien; btn.target = '_blank'; btn.rel = 'noopener noreferrer';
+                    btn.className = 'button is-dark'; btn.textContent = 'Voir plus';
+                    btnWrapper.appendChild(btn); body.appendChild(btnWrapper);
                 }
 
             } else if (layout === 'competence-rows') {
                 const table = document.createElement('div');
                 table.className = 'competence-rows';
                 paragraphs.forEach(({ logo, nom, description, postImg, lien }) => {
-                    const row = document.createElement('div');
-                    row.className = 'competence-row';
-                    const logoFig = document.createElement('figure');
-                    logoFig.className = 'competence-row-logo';
-                    const logoImg = document.createElement('img');
-                    logoImg.src = logo;
-                    logoImg.alt = nom;
+                    const row = document.createElement('div'); row.className = 'competence-row';
+                    const logoFig = document.createElement('figure'); logoFig.className = 'competence-row-logo';
+                    const logoImg = document.createElement('img'); logoImg.src = logo; logoImg.alt = nom;
                     logoFig.appendChild(logoImg);
-                    const nomEl = document.createElement('p');
-                    nomEl.className = 'competence-row-nom';
-                    nomEl.textContent = nom;
-                    const descEl = document.createElement('p');
-                    descEl.className = 'competence-row-desc';
-                    descEl.textContent = description;
-                    const postFig = document.createElement('figure');
-                    postFig.className = 'competence-row-post';
-                    const postImgEl = document.createElement('img');
-                    postImgEl.src = postImg;
-                    postImgEl.alt = nom + ' — exemple';
+                    const nomEl = document.createElement('p'); nomEl.className = 'competence-row-nom'; nomEl.textContent = nom;
+                    const descEl = document.createElement('p'); descEl.className = 'competence-row-desc'; descEl.textContent = description;
+                    const postFig = document.createElement('figure'); postFig.className = 'competence-row-post';
+                    const postImgEl = document.createElement('img'); postImgEl.src = postImg; postImgEl.alt = nom + ' — exemple';
                     postFig.appendChild(postImgEl);
-                    row.appendChild(logoFig);
-                    row.appendChild(nomEl);
-                    row.appendChild(descEl);
-                    row.appendChild(postFig);
+                    row.appendChild(logoFig); row.appendChild(nomEl); row.appendChild(descEl); row.appendChild(postFig);
                     if (lien) {
-                        const btnWrapper = document.createElement('div');
-                        btnWrapper.style.cssText = 'display:flex; align-items:center;';
-                        const btn = document.createElement('a');
-                        btn.href = lien;
-                        btn.target = '_blank';
-                        btn.rel = 'noopener noreferrer';
-                        btn.className = 'button is-dark';
-                        btn.textContent = 'Voir plus';
-                        btnWrapper.appendChild(btn);
-                        row.appendChild(btnWrapper);
+                        const btnWrapper = document.createElement('div'); btnWrapper.style.cssText = 'display:flex;align-items:center;';
+                        const btn = document.createElement('a'); btn.href = lien; btn.target = '_blank'; btn.rel = 'noopener noreferrer';
+                        btn.className = 'button is-dark'; btn.textContent = 'Voir plus';
+                        btnWrapper.appendChild(btn); row.appendChild(btnWrapper);
                     }
                     table.appendChild(row);
                 });
                 body.appendChild(table);
 
             } else if (layout === 'top') {
-                const fig = document.createElement('figure');
-                fig.className = 'image mb-5 modal-img-centered';
-                const imgEl = document.createElement('img');
-                imgEl.src = img;
-                imgEl.alt = title;
-                imgEl.className = 'modal-img';
-                fig.appendChild(imgEl);
-                body.appendChild(fig);
-                const textDiv = document.createElement('div');
-                textDiv.className = 'content';
+                const fig = document.createElement('figure'); fig.className = 'image mb-5 modal-img-centered';
+                const imgEl = document.createElement('img'); imgEl.src = img; imgEl.alt = title; imgEl.className = 'modal-img';
+                fig.appendChild(imgEl); body.appendChild(fig);
+                const textDiv = document.createElement('div'); textDiv.className = 'content';
                 paragraphs.forEach(({ titre, texte }) => {
-                    // h3 : sous-titres dans la modale (niveau 3)
-                    const h = document.createElement('h3');
-                    h.className = 'title is-5 mb-1';
-                    h.textContent = titre;
-                    const p = document.createElement('p');
-                    p.className = 'mb-4';
-                    p.textContent = texte;
-                    textDiv.appendChild(h);
-                    textDiv.appendChild(p);
+                    const h = document.createElement('h3'); h.className = 'title is-5 mb-1'; h.textContent = titre;
+                    const p = document.createElement('p'); p.className = 'mb-4'; p.textContent = texte;
+                    textDiv.appendChild(h); textDiv.appendChild(p);
                 });
                 body.appendChild(textDiv);
 
             } else {
-                const cols = document.createElement('div');
-                cols.className = 'columns is-vcentered';
-                const imgCol = document.createElement('div');
-                imgCol.className = 'column is-two-fifths';
-                const fig = document.createElement('figure');
-                fig.className = 'image';
-                const imgEl = document.createElement('img');
-                imgEl.src = img;
-                imgEl.alt = title;
-                imgEl.className = 'modal-img';
-                fig.appendChild(imgEl);
-                imgCol.appendChild(fig);
-                const textCol = document.createElement('div');
-                textCol.className = 'column';
-                const textDiv = document.createElement('div');
-                textDiv.className = 'content';
+                const cols = document.createElement('div'); cols.className = 'columns is-vcentered';
+                const imgCol = document.createElement('div'); imgCol.className = 'column is-two-fifths';
+                const fig = document.createElement('figure'); fig.className = 'image';
+                const imgEl = document.createElement('img'); imgEl.src = img; imgEl.alt = title; imgEl.className = 'modal-img';
+                fig.appendChild(imgEl); imgCol.appendChild(fig);
+                const textCol = document.createElement('div'); textCol.className = 'column';
+                const textDiv = document.createElement('div'); textDiv.className = 'content';
                 paragraphs.forEach(({ titre, texte }) => {
-                    // h3 : sous-titres dans la modale (niveau 3)
-                    const h = document.createElement('h3');
-                    h.className = 'title is-5 mb-1';
-                    h.textContent = titre;
-                    const p = document.createElement('p');
-                    p.className = 'mb-4';
-                    p.textContent = texte;
-                    textDiv.appendChild(h);
-                    textDiv.appendChild(p);
+                    const h = document.createElement('h3'); h.className = 'title is-5 mb-1'; h.textContent = titre;
+                    const p = document.createElement('p'); p.className = 'mb-4'; p.textContent = texte;
+                    textDiv.appendChild(h); textDiv.appendChild(p);
                 });
-                textCol.appendChild(textDiv);
-                cols.appendChild(imgCol);
-                cols.appendChild(textCol);
+                textCol.appendChild(textDiv); cols.appendChild(imgCol); cols.appendChild(textCol);
                 body.appendChild(cols);
             }
 
@@ -1075,19 +599,14 @@
             document.body.style.overflow = '';
         }
 
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeProjet();
-        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeProjet(); });
 
-        // ── NAVBAR BURGER & BIO TOGGLE ────────────────────────────────────
         document.addEventListener('DOMContentLoaded', () => {
-
             const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
             $navbarBurgers.forEach(el => {
                 el.addEventListener('click', () => {
                     const $target = document.getElementById(el.dataset.target);
-                    el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
+                    el.classList.toggle('is-active'); $target.classList.toggle('is-active');
                 });
             });
 
@@ -1099,24 +618,20 @@
                 const isHidden = sectionBio.style.display === 'none' || sectionBio.style.display === '';
                 if (isHidden) {
                     sectionBio.style.display = 'block';
-                    btnEnSavoirPlus.innerHTML = 'En savoir plus <i class="fa-solid fa-arrow-down ml-2"></i>';
                     sectionBio.scrollIntoView({ behavior: 'smooth' });
                 }
             });
+
             document.getElementById('btnReduire').addEventListener('click', () => {
                 sectionBio.style.display = 'none';
                 btnEnSavoirPlus.scrollIntoView({ behavior: 'smooth' });
             });
-
         });
 
         window.addEventListener('scroll', () => {
             const nav = document.querySelector('.navbar-sticky');
-            if (window.scrollY > 50) {
-                nav.classList.add('is-scrolled');
-            } else {
-                nav.classList.remove('is-scrolled');
-            }
+            if (window.scrollY > 50) nav.classList.add('is-scrolled');
+            else nav.classList.remove('is-scrolled');
         });
 
         document.querySelectorAll('.navbar-nav .button').forEach(btn => {
@@ -1126,17 +641,12 @@
             });
         });
 
-        // ── ANIMATIONS AU SCROLL ──────────────────────────────────────────
         const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    observer.unobserve(entry.target);
-                }
+                if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
             });
         }, { threshold: 0.08 });
-
         revealEls.forEach(el => observer.observe(el));
     </script>
 
@@ -1144,71 +654,39 @@
         (function () {
             const canvas = document.getElementById('hexCanvas');
             const ctx = canvas.getContext('2d');
-
-            function resize() {
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-            }
-            window.addEventListener('resize', resize);
-            resize();
-
-            const COUNT = 18;
-            const hexagons = [];
-
+            function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+            window.addEventListener('resize', resize); resize();
+            const COUNT = 18; const hexagons = [];
             function hexPath(cx, cy, r) {
                 ctx.beginPath();
                 for (let i = 0; i < 6; i++) {
                     const angle = Math.PI / 180 * (60 * i - 30);
-                    const x = cx + r * Math.cos(angle);
-                    const y = cy + r * Math.sin(angle);
+                    const x = cx + r * Math.cos(angle); const y = cy + r * Math.sin(angle);
                     i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
                 }
                 ctx.closePath();
             }
-
             for (let i = 0; i < COUNT; i++) {
-                hexagons.push({
-                    x: Math.random() * window.innerWidth,
-                    y: Math.random() * window.innerHeight,
-                    r: 20 + Math.random() * 70,
-                    vx: (Math.random() - 0.5) * 0.3,
-                    vy: (Math.random() - 0.5) * 0.3,
-                    rot: Math.random() * Math.PI * 2,
-                    vrot: (Math.random() - 0.5) * 0.004,
-                    alpha: 0.08 + Math.random() * 0.14,
-                });
+                hexagons.push({ x: Math.random() * window.innerWidth, y: Math.random() * window.innerHeight, r: 20 + Math.random() * 70, vx: (Math.random() - 0.5) * 0.3, vy: (Math.random() - 0.5) * 0.3, rot: Math.random() * Math.PI * 2, vrot: (Math.random() - 0.5) * 0.004, alpha: 0.08 + Math.random() * 0.14 });
             }
-
             function draw() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
-
                 hexagons.forEach(h => {
-                    h.x += h.vx;
-                    h.y += h.vy;
-                    h.rot += h.vrot;
-
+                    h.x += h.vx; h.y += h.vy; h.rot += h.vrot;
                     if (h.x < -h.r * 2) h.x = canvas.width + h.r;
                     if (h.x > canvas.width + h.r * 2) h.x = -h.r;
                     if (h.y < -h.r * 2) h.y = canvas.height + h.r;
                     if (h.y > canvas.height + h.r * 2) h.y = -h.r;
-
-                    ctx.save();
-                    ctx.translate(h.x, h.y);
-                    ctx.rotate(h.rot);
+                    ctx.save(); ctx.translate(h.x, h.y); ctx.rotate(h.rot);
                     hexPath(0, 0, h.r);
-                    ctx.strokeStyle = `rgba(255,255,255,${h.alpha})`;
-                    ctx.lineWidth = 1.5;
-                    ctx.stroke();
+                    ctx.strokeStyle = `rgba(255,255,255,${h.alpha})`; ctx.lineWidth = 1.5; ctx.stroke();
                     ctx.restore();
                 });
-
                 requestAnimationFrame(draw);
             }
-
             draw();
         })();
     </script>
 
 </body>
-
 </html>
