@@ -606,7 +606,7 @@ html:has(body.splash-active) { overflow: hidden; height: 100%; }
 
 .competence-row {
     display: grid;
-    grid-template-columns: 48px auto 1fr auto;
+    grid-template-columns: 48px auto 1fr 180px;
     align-items: center;
     gap: 1rem;
     padding: 1rem;
@@ -645,7 +645,8 @@ html:has(body.splash-active) { overflow: hidden; height: 100%; }
 }
 
 .competence-row-post {
-    max-height: 280px;
+    width: 180px;
+    height: 180px;
     flex-shrink: 0;
     margin: 0;
     border-radius: 6px;
@@ -656,9 +657,9 @@ html:has(body.splash-active) { overflow: hidden; height: 100%; }
 }
 
 .competence-row-post img {
-    max-height: 280px;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
     border-radius: 6px;
 }
